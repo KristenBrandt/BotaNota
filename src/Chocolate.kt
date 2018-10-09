@@ -1,1 +1,1 @@
-class Chocolate 
+class Chocolate

@@ -8,7 +8,13 @@
                 Cholate("Chocolate 4", "1000", "Nuez")
         ));
         val hacer = Forrest<Chocolate>(cajaChocolate);
-
+        println(hacer.accion())
+        println(hacer.accion())
+        println(hacer.accion())
+        println(hacer.accion())
+        println(hacer.accion())
+        println(hacer.accion())
+        println(hacer.accion())
 
     }
 }
