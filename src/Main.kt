@@ -1,13 +1,12 @@
- class Main {
-
-    fun main(args: Array<String>) {
-        val cajaChocolate = Caja<Chocolate>(ArrayListof<Chocolate>(
-                Cholate("Chocolate 1", "3000", "Oscuro"),
-                Cholate("Chocolate 2 ", "6000", "Leche"),
-                Cholate("Chocolate 3", "5000", "Amaretto"),
-                Cholate("Chocolate 4", "1000", "Nuez")
+fun main(args: Array<String>) {
+        val cajaChocolate = Caja<Chocolate>(arrayListOf<Chocolate>(
+                Chocolate("Chocolate de Leche"),
+                Chocolate("Chocolate Oscuro"),
+                Chocolate("Chocolate de Nuez"),
+                Chocolate("Chocolate Amaretto")
         ));
-        val hacer = Forrest<Chocolate>(cajaChocolate);
+
+        val hacer = Forrest<Chocolate>(cajaChocolate)
         println(hacer.accion())
         println(hacer.accion())
         println(hacer.accion())
@@ -17,4 +16,4 @@
         println(hacer.accion())
 
     }
-}
+
